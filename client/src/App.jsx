@@ -7,7 +7,7 @@ const whatsappUrl = `https://wa.me/${whatsappNumber}`;
 
 function createWhatsAppUrl(details) {
   const message = [
-    "Hello Sunrich Renewable Power, I’d like to enquire about a solar order.",
+    "Hello VHR Energies Private Limited, I’d like to enquire about a solar order.",
     "",
     `Name: ${details.name}`,
     `Email: ${details.email || "Not provided"}`,
@@ -146,8 +146,8 @@ function Header() {
 
   return (
     <header className="site-header">
-      <a className="brand" href="#home" aria-label="Sunrich Renewable Power home" onClick={closeMenu}>
-        <img src="/sunrich-logo.svg" alt="" />
+      <a className="brand" href="#home" aria-label="VHR Energies Private Limited home" onClick={closeMenu}>
+        <img src="/vhr-energies-logo.svg" alt="" />
       </a>
       <button
         className="menu-toggle"
@@ -265,7 +265,7 @@ function App() {
           <div className="hero-content page-shell">
             <p className="eyebrow eyebrow-light">
               <span className="eyebrow-mark" />
-              Sunrich Renewable Power · Maharashtra
+              VHR Energies Private Limited · Maharashtra
             </p>
             <h1 id="hero-title">
               The power to
@@ -287,9 +287,9 @@ function App() {
           </div>
           <div className="hero-caption">
             <span className="caption-dot" />
-            Solar installation · image supplied by Sunrich
+            Solar installation · image supplied by VHR Energies
           </div>
-          <a className="scroll-cue" href="#about" aria-label="Scroll to learn about Sunrich">
+          <a className="scroll-cue" href="#about" aria-label="Scroll to learn about VHR Energies">
             <span />
           </a>
         </section>
@@ -308,7 +308,7 @@ function App() {
                 <br className="desktop-break" /> to power what matters.
               </h2>
               <p className="body-copy">
-                Sunrich Renewable Power helps homes, businesses and landowners
+                VHR Energies Private Limited helps homes, businesses and landowners
                 explore solar energy with clarity. As a Maharashtra-based solar
                 energy business, we bring a practical, site-first approach to
                 planning your next step.
@@ -320,7 +320,7 @@ function App() {
             <div className="intro-note">
               <div className="intro-note-icon"><Icon name="sun" size={26} /></div>
               <p>Cleaner energy begins with the right conversation.</p>
-              <span>Sunrich Renewable Power</span>
+              <span>VHR Energies Private Limited</span>
             </div>
           </div>
         </section>
@@ -365,7 +365,7 @@ function App() {
                 are the same — and yours should start with a proper conversation.
               </p>
               <a className="button button-outline" href="#contact">
-                Talk to Sunrich <Icon name="arrow" size={18} />
+                Talk to VHR Energies <Icon name="arrow" size={18} />
               </a>
             </div>
             <div className="approach-steps">
@@ -402,7 +402,7 @@ function App() {
                   <div className="project-image-wrap">
                     <img
                       src={project.image}
-                      alt={`${project.type} shown in a Sunrich-supplied photo`}
+                      alt={`${project.type} shown in a VHR Energies-supplied photo`}
                       loading="lazy"
                       style={{ objectPosition: project.position }}
                     />
@@ -410,7 +410,7 @@ function App() {
                   </div>
                   <div className="project-card-caption">
                     <h3>{project.title}</h3>
-                    <span>Photo supplied by Sunrich</span>
+                    <span>Photo supplied by VHR Energies</span>
                   </div>
                 </article>
               ))}
@@ -455,14 +455,14 @@ function App() {
       </main>
       <footer className="site-footer">
         <div className="page-shell footer-main">
-          <a className="footer-brand" href="#home" aria-label="Sunrich home">
-            <img src="/sunrich-logo.svg" alt="Sunrich Renewable Power" />
+          <a className="footer-brand" href="#home" aria-label="VHR Energies home">
+            <img src="/vhr-energies-logo.svg" alt="VHR Energies Private Limited" />
           </a>
           <p>Thoughtful solar. A brighter tomorrow.</p>
           <a className="footer-top" href="#home">Back to top ↑</a>
         </div>
         <div className="page-shell footer-bottom">
-          <span>© {currentYear} Sunrich Renewable Power</span>
+          <span>© {currentYear} VHR Energies Private Limited</span>
           <span>VHR Energies Private Limited · Maharashtra, India</span>
         </div>
       </footer>
