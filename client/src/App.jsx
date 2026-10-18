@@ -147,7 +147,7 @@ function Header() {
   return (
     <header className="site-header">
       <a className="brand" href="#home" aria-label="VHR Energies Private Limited home" onClick={closeMenu}>
-        <img src="/vhr-energies-logo.svg" alt="" />
+        <img src="/vhr-energies-logo.png" alt="" />
       </a>
       <button
         className="menu-toggle"
@@ -456,7 +456,7 @@ function App() {
       <footer className="site-footer">
         <div className="page-shell footer-main">
           <a className="footer-brand" href="#home" aria-label="VHR Energies home">
-            <img src="/vhr-energies-logo.svg" alt="VHR Energies Private Limited" />
+            <img src="/vhr-energies-logo.png" alt="VHR Energies Private Limited" />
           </a>
           <p>Thoughtful solar. A brighter tomorrow.</p>
           <a className="footer-top" href="#home">Back to top ↑</a>
