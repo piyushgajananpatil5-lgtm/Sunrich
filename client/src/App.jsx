@@ -7,7 +7,7 @@ const whatsappUrl = `https://wa.me/${whatsappNumber}`;
 
 function createWhatsAppUrl(details) {
   const message = [
-    "Hello VHR Energies Private Limited, I’d like to enquire about a solar order.",
+    "Hello VHR Energies, I’d like to enquire about a solar order.",
     "",
     `Name: ${details.name}`,
     `Email: ${details.email || "Not provided"}`,
@@ -146,7 +146,7 @@ function Header() {
 
   return (
     <header className="site-header">
-      <a className="brand" href="#home" aria-label="VHR Energies Private Limited home" onClick={closeMenu}>
+      <a className="brand" href="#home" aria-label="VHR Energies home" onClick={closeMenu}>
         <img src="/vhr-energies-logo.png" alt="" />
       </a>
       <button
@@ -265,7 +265,7 @@ function App() {
           <div className="hero-content page-shell">
             <p className="eyebrow eyebrow-light">
               <span className="eyebrow-mark" />
-              VHR Energies Private Limited · Maharashtra
+              VHR Energies · Maharashtra
             </p>
             <h1 id="hero-title">
               The power to
@@ -308,10 +308,10 @@ function App() {
                 <br className="desktop-break" /> to power what matters.
               </h2>
               <p className="body-copy">
-                VHR Energies Private Limited helps homes, businesses and landowners
-                explore solar energy with clarity. As a Maharashtra-based solar
-                energy business, we bring a practical, site-first approach to
-                planning your next step.
+                VHR Energies helps homes, businesses and landowners explore solar
+                energy with clarity. As a Maharashtra-based solar energy business,
+                we bring a practical, site-first approach to planning your next
+                step.
               </p>
               <a className="text-link" href="#contact">
                 Get to know us <Icon name="arrow" size={17} />
@@ -320,7 +320,7 @@ function App() {
             <div className="intro-note">
               <div className="intro-note-icon"><Icon name="sun" size={26} /></div>
               <p>Cleaner energy begins with the right conversation.</p>
-              <span>VHR Energies Private Limited</span>
+              <span>VHR Energies</span>
             </div>
           </div>
         </section>
@@ -456,14 +456,14 @@ function App() {
       <footer className="site-footer">
         <div className="page-shell footer-main">
           <a className="footer-brand" href="#home" aria-label="VHR Energies home">
-            <img src="/vhr-energies-logo.png" alt="VHR Energies Private Limited" />
+            <img src="/vhr-energies-logo.png" alt="VHR Energies" />
           </a>
           <p>Thoughtful solar. A brighter tomorrow.</p>
           <a className="footer-top" href="#home">Back to top ↑</a>
         </div>
         <div className="page-shell footer-bottom">
-          <span>© {currentYear} VHR Energies Private Limited</span>
-          <span>VHR Energies Private Limited · Maharashtra, India</span>
+          <span>© {currentYear} VHR Energies</span>
+          <span>VHR Energies · Maharashtra, India</span>
         </div>
       </footer>
     </>

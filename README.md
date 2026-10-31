@@ -1,7 +1,5 @@
-# VHR Energies Private Limited
-
-A responsive React website for VHR Energies Private Limited, served by a lightweight
-Express server. There is no database: order enquiries are sent directly to the
+# VHR Energies
+A responsive React website for VHR Energies, served by a lightweightExpress server. There is no database: order enquiries are sent directly to the
 company through WhatsApp. The site uses solar installation photos supplied in
 the project materials.
 
